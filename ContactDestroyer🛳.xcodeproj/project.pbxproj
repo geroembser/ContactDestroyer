@@ -14,6 +14,7 @@
 		6BF6FBAA2090EE9100B24247 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BF6FBA82090EE9100B24247 /* LaunchScreen.storyboard */; };
 		6BF6FBB52090EE9100B24247 /* ContactDestroyer__Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF6FBB42090EE9100B24247 /* ContactDestroyer__Tests.swift */; };
 		6BF6FBC02090EE9100B24247 /* ContactDestroyer__UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF6FBBF2090EE9100B24247 /* ContactDestroyer__UITests.swift */; };
+		6BF6FBCE2090EF4000B24247 /* CNContact+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF6FBCD2090EF4000B24247 /* CNContact+Helpers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		6BF6FBBB2090EE9100B24247 /* ContactDestroyer🛳UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ContactDestroyer🛳UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BF6FBBF2090EE9100B24247 /* ContactDestroyer__UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDestroyer__UITests.swift; sourceTree = "<group>"; };
 		6BF6FBC12090EE9100B24247 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BF6FBCD2090EF4000B24247 /* CNContact+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CNContact+Helpers.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				6BF6FB9F2090EE9000B24247 /* AppDelegate.swift */,
 				6BF6FBA12090EE9000B24247 /* ViewController.swift */,
+				6BF6FBCD2090EF4000B24247 /* CNContact+Helpers.swift */,
 				6BF6FBA32090EE9000B24247 /* Main.storyboard */,
 				6BF6FBA62090EE9100B24247 /* Assets.xcassets */,
 				6BF6FBA82090EE9100B24247 /* LaunchScreen.storyboard */,
@@ -258,6 +261,7 @@
 			files = (
 				6BF6FBA22090EE9000B24247 /* ViewController.swift in Sources */,
 				6BF6FBA02090EE9000B24247 /* AppDelegate.swift in Sources */,
+				6BF6FBCE2090EF4000B24247 /* CNContact+Helpers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,7 +441,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.geroembser.ContactDestroyer--";
+				PRODUCT_BUNDLE_IDENTIFIER = com.geroembser.ContactDestroyer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -455,7 +459,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.geroembser.ContactDestroyer--";
+				PRODUCT_BUNDLE_IDENTIFIER = com.geroembser.ContactDestroyer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
